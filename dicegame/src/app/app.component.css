@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(img/back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -28,7 +28,7 @@ body {
 
 .wrapper {
     width: 850px;
-    height: 400px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,8 +42,10 @@ body {
 {
     width: 60%;
     float: left;
-    height: 600px;
+    height: 670px;
     padding: 100px;
+    margin-top: 90px;
+    
 }
 
 .title{
@@ -60,14 +62,14 @@ body {
 
 }
 .btn-new-game{
-    margin-top: 100px;
+    margin-top: 190px;
    
 }
 .btn-scoreboard{
-    margin-top: 170px;    
+    margin-top: 260px;    
 }
 .btn-rules{
-    margin-top: 240px;    
+    margin-top: 330px;    
 }
 
 /**********************************************
@@ -93,7 +95,7 @@ button {
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: 600;
     transition: background-color 0.3s, color 0.3s;
 }
 
